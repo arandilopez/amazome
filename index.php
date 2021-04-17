@@ -1,3 +1,4 @@
+<?php include('./funciones/init.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,59 +17,12 @@
   <link href="/stylesheets/site.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a href="/" class="navbar-brand">Amazing Store</a>
-    <button class="navbar-toggler" type="button" data-toggle=
-    "collapse" data-target="#navbarSupportedContent" aria-controls=
-    "navbarSupportedContent" aria-expanded="false" aria-label=
-    "Toggle navigation"><span class=
-    "navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id=
-    "navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Promociones</a>
-        </li>
-      </ul>
-      <form class="form-inline w-50">
-        <div class="input-group w-100">
-          <input type="text" class="form-control" placeholder=
-          "Buscar">
-          <div class="input-group-append">
-            <button class="btn btn-warning" type="button"><i class=
-            "fas fa-search"></i></button>
-          </div>
-        </div>
-      </form>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id=
-          "navbarDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">Mi cuenta</a>
-          <div class="dropdown-menu" aria-labelledby=
-          "navbarDropdown">
-            <a href="/login.html" class="dropdown-item">Iniciar
-            sesión</a>
-            <!-- <a class="dropdown-item" href="#">Mis pedidos</a> -->
-
-            <!-- <a class="dropdown-item" href="#">Mi Perfil</a> -->
-             <!-- <div class="dropdown-divider"></div> -->
-
-            <!-- <a class="dropdown-item" href="#">Cerrar sesión</a> -->
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/carrito.html"><i class=
-          "fas fa-shopping-cart text-warning"></i> Carrito</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <?php include('./compartidos/navegacion.php'); ?>
   <main class="mt-5">
     <div class="container">
       <div class="card-columns">
         <div class="card">
-          <a href="/products/pulsera-oro-1.html"><img src=
+          <a href="/products/pulsera-oro-1.php"><img src=
           "/images/product-00000.jpg" class="card-img-top" alt=
           "Product 00000"></a>
           <div class="card-body">
@@ -82,7 +36,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/juego-reloj-bamboo-1.html"><img src=
+          <a href="/products/juego-reloj-bamboo-1.php"><img src=
           "/images/product-00001.jpg" class="card-img-top" alt=
           "Product 00001"></a>
           <div class="card-body">
@@ -97,7 +51,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/bolsa-negra-piel-1.html"><img src=
+          <a href="/products/bolsa-negra-piel-1.php"><img src=
           "/images/product-00002.jpg" class="card-img-top" alt=
           "Product 00002"></a>
           <div class="card-body">
@@ -111,7 +65,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/camiseta-1.html"><img src=
+          <a href="/products/camiseta-1.php"><img src=
           "/images/product-00003.jpg" class="card-img-top" alt=
           "Product 00003"></a>
           <div class="card-body">
@@ -126,7 +80,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/juego-reloj-negro-1.html"><img src=
+          <a href="/products/juego-reloj-negro-1.php"><img src=
           "/images/product-00004.jpg" class="card-img-top" alt=
           "Product 00004"></a>
           <div class="card-body">
@@ -140,7 +94,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/pulsera-1.html"><img src=
+          <a href="/products/pulsera-1.php"><img src=
           "/images/product-00005.jpg" class="card-img-top" alt=
           "Product 00005"></a>
           <div class="card-body">
@@ -155,7 +109,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/aretes-1.html"><img src=
+          <a href="/products/aretes-1.php"><img src=
           "/images/product-00006.jpg" class="card-img-top" alt=
           "Product 00006"></a>
           <div class="card-body">
@@ -170,7 +124,7 @@
         </div>
         <div class="card">
           <a href=
-          "/products/audifono-inalambricos-1.html"><img src="/images/product-00007.jpg"
+          "/products/audifono-inalambricos-1.php"><img src="/images/product-00007.jpg"
           class="card-img-top" alt="Product 00007"></a>
           <div class="card-body">
             <h5 class="card-title">Audifonos inalambricos</h5>
@@ -183,7 +137,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/tennis-1.html"><img src=
+          <a href="/products/tennis-1.php"><img src=
           "/images/product-00008.jpg" class="card-img-top" alt=
           "Product 00008"></a>
           <div class="card-body">
@@ -198,7 +152,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/tennis-2.html"><img src=
+          <a href="/products/tennis-2.php"><img src=
           "/images/product-00009.jpg" class="card-img-top" alt=
           "Product 00009"></a>
           <div class="card-body">
@@ -213,7 +167,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/mochila-1.html"><img src=
+          <a href="/products/mochila-1.php"><img src=
           "/images/product-00010.jpg" class="card-img-top" alt=
           "Product 00010"></a>
           <div class="card-body">
@@ -227,7 +181,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="/products/zapatos-1.html"><img src=
+          <a href="/products/zapatos-1.php"><img src=
           "/images/product-00011.jpg" class="card-img-top" alt=
           "Product 00011"></a>
           <div class="card-body">
